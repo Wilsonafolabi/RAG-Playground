@@ -1,0 +1,156 @@
+# Core Dependencies for RAG-Playground
+# Install with: pip install -r requirements.txt
+
+# ======================
+# Core ML & Deep Learning
+# ======================
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+accelerate>=0.24.0
+
+# ======================
+# Embedding Models
+# ======================
+BAAI/bge-large-en
+InstructorXL
+jina-embeddings-v2-base-en
+
+# ======================
+# Vector Databases
+# ======================
+faiss-cpu>=1.7.4
+qdrant-client>=1.6.0
+chromadb>=0.4.18
+
+# ======================
+# Document Processing
+# ======================
+PyMuPDF>=1.23.0
+pdfplumber>=0.10.3
+paddleocr>=2.7.0
+paddlepaddle>=2.5.0
+unstructured>=0.11.0
+python-docx>=1.1.0
+openpyxl>=3.1.2
+
+# ======================
+# NLP Libraries
+# ======================
+spacy>=3.7.0
+nltk>=3.8.1
+rake-nltk>=1.0.6
+
+# ======================
+# Medical/Bio NLP
+# ======================
+biobert
+clinicalbert
+
+# ======================
+# Computer Vision
+# ======================
+opencv-python>=4.8.0
+Pillow>=10.0.0
+clip-by-openai
+monai>=1.3.0
+timm>=0.9.0
+
+# ======================
+# RAG Frameworks
+# ======================
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-core>=0.1.0
+llama-index>=0.9.0
+langgraph>=0.0.20
+
+# ======================
+# Agent Frameworks
+# ======================
+crewai>=0.28.0
+autogen>=0.2.0
+
+# ======================
+# Search & Retrieval
+# ======================
+elasticsearch>=8.11.0
+opensearch-py>=2.4.0
+rank-bm25>=0.2.2
+
+# ======================
+# Reranking
+# ======================
+cross-encoder>=0.2.0
+cohere>=4.40
+
+# ======================
+# Database & SQL
+# ======================
+sqlalchemy>=2.0.23
+psycopg2-binary>=2.9.9
+sqlite-utils>=3.36
+pandas>=2.1.0
+
+# ======================
+# Graph Databases
+# ======================
+neo4j>=5.15.0
+networkx>=3.2.1
+pyvis>=0.3.2
+
+# ======================
+# Audio/Video Processing
+# ======================
+whisper>=1.0.0
+moviepy>=1.0.3
+pydub>=0.25.1
+
+# ======================
+# Web & API
+# ======================
+fastapi>=0.105.0
+uvicorn>=0.24.0
+httpx>=0.25.2
+requests>=2.31.0
+
+# ======================
+# Utilities
+# ======================
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+tqdm>=4.66.0
+loguru>=0.7.2
+rich>=13.7.0
+
+# ======================
+# Evaluation
+# ======================
+ragas>=0.0.22
+evaluate>=0.4.1
+datasets>=2.14.0
+
+# ======================
+# Visualization
+# ======================
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# ======================
+# Development & Testing
+# ======================
+pytest>=7.4.3
+pytest-asyncio>=0.21.0
+black>=23.11.0
+flake8>=6.1.0
+mypy>=1.7.0
+jupyter>=1.0.0
+ipykernel>=6.26.0
+
+# ======================
+# Optional: GPU Support
+# ======================
+# torch-cuda (install separately based on your CUDA version)
+# cudnn
